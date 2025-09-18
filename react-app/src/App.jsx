@@ -10,12 +10,6 @@ function App() {
   const [age, setAge] = useState("");
   const [data, setData] = useState();
 
-  // const client = new Client({
-  //   connectionString: 'postgresql://neondb_owner:npg_fNZB3gpJ4ErD@ep-polished-violet-ad4oeuyv-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require',
-  //   ssl: {
-  //     rejectUnauthorized: false
-  //   }
-  // })
   let i = 0;
 
   const handleClick = async () => {
